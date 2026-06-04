@@ -1,6 +1,6 @@
 package Week_1.Day_2;
 
-class Solution {
+class maximum_average_subarray {
     public double findMaxAverage(int[] nums, int k) {
         int n = nums.length;
         double sum = 0.0,max = 0.0;

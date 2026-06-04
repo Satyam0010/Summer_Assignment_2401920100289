@@ -1,4 +1,5 @@
-class Solution {
+package Week_1.Day_4;
+class reshape_the_matrix {
     public int[][] matrixReshape(int[][] mat, int r, int c) {
         int m = mat.length;
         int n = mat[0].length;

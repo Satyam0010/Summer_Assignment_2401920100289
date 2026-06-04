@@ -1,6 +1,7 @@
+package Week_1.Day_4;
 import java.util.ArrayList;
 import java.util.List;
-class Solution {
+class spiral_matrix {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> ans = new ArrayList<>();
         int top = 0, right = matrix[0].length-1,bottom = matrix.length-1,left = 0;

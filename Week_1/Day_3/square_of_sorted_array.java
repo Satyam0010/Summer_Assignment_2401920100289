@@ -1,6 +1,6 @@
 package Week_1.Day_3;
 
-class Solution {
+class square_of_sorted_array {
     public int[] sortedSquares(int[] nums) {
         int[] ans = new int[nums.length];
         int i = 0;

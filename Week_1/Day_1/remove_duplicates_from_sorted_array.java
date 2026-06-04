@@ -1,6 +1,6 @@
 package Week_1.Day_1;
 
-class Solution {
+class remove_duplicates_from_sorted_array {
     public int removeDuplicates(int[] nums) {
         int k = 0;
         for(int i = 1 ; i < nums.length;i++){

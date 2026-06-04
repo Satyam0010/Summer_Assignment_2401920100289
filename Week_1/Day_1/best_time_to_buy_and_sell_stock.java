@@ -1,6 +1,6 @@
 package Week_1.Day_1;
 
-class Solution {
+class best_time_to_buy_and_sell_stock {
     public int maxProfit(int[] prices) {
         int min = Integer.MAX_VALUE,pro = 0;
         for(int i = 0; i < prices.length;i++){

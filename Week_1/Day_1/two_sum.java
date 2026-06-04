@@ -1,5 +1,5 @@
 package Week_1.Day_1;
-class Solution {
+class two_sum {
     public int[] twoSum(int[] nums, int target) {
         for(int i = 0; i < nums.length;i++)
         {

@@ -2,7 +2,7 @@ package Week_1.Day_2;
 
 import java.util.HashSet;
 
-class Solution {
+class contains_duplicates {
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
         for(int num : nums){

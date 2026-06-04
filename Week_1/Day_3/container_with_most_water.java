@@ -1,6 +1,6 @@
 package Week_1.Day_3;
 
-class Solution {
+class container_with_most_water {
     public int maxArea(int[] height) {
        int l = 0, r = height.length - 1, ans = 0;
        while(l < r){
