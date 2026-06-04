@@ -1,4 +1,3 @@
-package Week_1.Day_4;
 import java.util.ArrayList;
 import java.util.List;
 class spiral_matrix {

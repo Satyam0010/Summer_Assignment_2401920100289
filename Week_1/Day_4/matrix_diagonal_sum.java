@@ -1,4 +1,3 @@
-package Week_1.Day_4;
 class matrix_diagonal_sum {
     public int diagonalSum(int[][] mat) {
         int n = mat.length;
