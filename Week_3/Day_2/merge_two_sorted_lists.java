@@ -1,4 +1,4 @@
-package Week_2.Week_3.Day_2;
+package Week_3.Day_2;
 
 class ListNode {
       int val;
