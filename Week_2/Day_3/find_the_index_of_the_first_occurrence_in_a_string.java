@@ -2,7 +2,7 @@ package Week_2.Day_3;
 public class find_the_index_of_the_first_occurrence_in_a_string {
     public int strStr(String haystack, String needle) {
         int l1 = haystack.length();
-        int l2 = needle.length();
+        //int l2 = needle.length();
         int i = 0;
         int j = 0;
 
