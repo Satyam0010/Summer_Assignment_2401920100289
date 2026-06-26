@@ -1,0 +1,29 @@
+package Week_4.Day_4;
+
+class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode() {}
+     TreeNode(int val) { this.val = val; }
+     TreeNode(int val, TreeNode left, TreeNode right) {
+          this.val = val;
+          this.left = left;
+          this.right = right;
+      }
+  }
+ 
+class binary_tree_maximum_path_sum {
+    int max = Integer.MIN_VALUE;
+    public int maxPathSum(TreeNode root){
+        check(root);
+        return max;
+    }
+    private int check(TreeNode root){
+        if(root == null) return 0;
+        int left = Math.max(0,check(root.left));
+        int right = Math.max(0,check(root.right));
+        max = Math.max(max,left+right+root.val);
+        return root.val+Math.max(left,right);
+    }
+}
